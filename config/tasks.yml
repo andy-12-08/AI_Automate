@@ -1,0 +1,17 @@
+search_agent_task:
+  description: >
+    Perform a comprehensive search for {product_name} on {product_site}.
+    Extract and return at least 20 different and unique product listings with supporting details such as price, product description, and review summaries.
+    The search must prioritize diversity across listings and ensure no duplicate products are included.
+    Strictly follow the user's requirements: {requirements}.
+  expected_output: >
+    A detailed list of at least 20 unique product listings with associated metadata (price, description, reviews) meeting the user's search criteria.
+
+reporting_agent_task:
+  description: >
+    From the results provided by the search agent, analyze and report on the top 10 distinct products.
+    Rank and summarize them based on how well they meet the user’s requirements: {requirements}.
+    Clearly highlight why each product was selected.
+    If fewer than 5 products are available, delegate back to the search agent to retrieve more data.
+  expected_output: >
+    A ranked summary report (without URLs) of the top 10 distinct products aligned with the user's expectations, ready to be shared with the end-user.
