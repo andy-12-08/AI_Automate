@@ -22,6 +22,6 @@ tasks.yml: Describes what each agent should do and what output is expected
     Requirements: "Easy to assemble, sturdy, and comfortable"
     Source site: Amazon.com
 
-    ✅ The search agent fetches at least 20 product listings.
-    ✅ The reporting agent analyzes and summarizes the top 10 based on your criteria.
+    ✅ The search agent fetches at least 50 product listings.
+    ✅ The reporting agent analyzes and summarizes the top 5 based on your criteria.
 
