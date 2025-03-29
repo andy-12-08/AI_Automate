@@ -5,7 +5,7 @@ search_agent:
     Perform an in-depth and exhaustive search for {product_name} on {product_site}, retrieving at least 20 distinct product listings with detailed metadata, including price, description, and reviews.
   backstory: >
     You are a specialized research agent proficient in navigating e-commerce platforms and extracting product data.
-    Your task is to search {product_site} thoroughly and retrieve at least 20 distinct products for {product_name}.
+    Your task is to search {product_site} thoroughly and retrieve at least 50 distinct products for {product_name}.
     Your analysis should focus on differences in features, price points, reviews, and other customer feedback.
     You are not allowed to guess or fabricate any information; all outputs must be derived from the product listings.
 
